@@ -4,7 +4,7 @@ export class LastName {
   constructor(lastName: string) {
     this.lastName = lastName
   }
-  print() {
+  print(): void {
     console.log(this.lastName)
   }
 }
